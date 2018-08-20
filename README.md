@@ -23,10 +23,10 @@ A high level overview of the design and components of the Subspace protocol.
   * [Desktop](#desktop)
   * [BitBot](#bitbot)
 - [Subspace Implementations](#subspace-implementations)
-  * [Subspace Explorer](subspace-explorer-(spa))
-  * [Subspace Console](subspace-console-(web-app))
-  * [Subspace Full Node](subspace-full-node-(mobile/desktop))
-  * [Subspace Full Node (headless)](subspace-full-node-(server))
+  * [Subspace Explorer](subspace-explorer-spa)
+  * [Subspace Console](subspace-console-web-app)
+  * [Subspace Full Node](subspace-full-node-mobile--desktop)
+  * [Subspace Full Node (headless)](subspace-full-node-server)
 
 ## Core Modules
 
