@@ -22,7 +22,7 @@ A high level overview of the design and components of the Subspace protocol.
   * [Mobile](#mobile)
   * [Desktop](#desktop)
   * [BitBot](#bitbot)
-[Subspace Implementations](#subspace-implementations)
+- [Subspace Implementations](#subspace-implementations)
   * [Subspace Explorer](subspace-explorer)
   * [Subspace Console](subspace-console)
   * [Subspace Full Node](subspace-full-node)
@@ -206,7 +206,7 @@ Serves as an entry point for new nodes on the network. Must have a public ip add
 Connect(): Joins the network simply to be a node in the peer relay network, gossiping the LHT and other messages between peers.
 Disconnect()
 
-## Basic Implementations
+## Core Implementations
 
 All are currently in javascript. Goal is to move to Typescript soon.
 
