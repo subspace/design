@@ -2,30 +2,31 @@
 
 A high level overview of the design and components of the Subspace protocol.
 
-[Core Modules](#core-modules)
-  [Crypto](#crypto)
-  [Profile](#profile)
-  [Database](#database)
-  [Relay](#relay)
-  [Local Hash Table](#local-hash-table)
-  [Distributed Hash Table](#distributed-hash-table)
-  [Remote Procedure Calls](#remote-procedure-calls)
-  [Ledger](#ledger)
-[API Modules](#API-Modules)
-  [Host](#host)
-  [Client](#client)
-  [Farmer](#farmer)
-  [Gateway](#gateway)
-[Core Implementations](#core-implementations)
-  [Server](#server)
-  [Browser](#browser)
-  [Mobile](#mobile)
-  [Desktop](#desktop)
-  [BitBot](#bitbot)
+- [Core Modules](#core-modules)
+  * [Crypto](#crypto)
+  * [Profile](#profile)
+  * [Database](#database)
+  * [Relay](#relay)
+  * [Local Hash Table](#local-hash-table)
+  * [Distributed Hash Table](#distributed-hash-table)
+  * [Remote Procedure Calls](#remote-procedure-calls)
+  * [Ledger](#ledger)
+- [API Modules](#API-Modules)
+  * [Host](#host)
+  * [Client](#client)
+  * [Farmer](#farmer)
+  * [Gateway](#gateway)
+- [Core Implementations](#core-implementations)
+  * [Server](#server)
+  * [Browser](#browser)
+  * [Mobile](#mobile)
+  * [Desktop](#desktop)
+  * [BitBot](#bitbot)
 [Subspace Implementations](#subspace-implementations)
-  [Subspace Explorer](subspace-explorer)
-  [Subspace Console](subspace-console)
-  [Subspace Full Client](subspace-full-client)
+  * [Subspace Explorer](subspace-explorer)
+  * [Subspace Console](subspace-console)
+  * [Subspace Full Node](subspace-full-node)
+  * [Subspace Full Node (headless)](subspace-full-node-headless)
 
 ## Core Modules
 
@@ -239,10 +240,10 @@ A hosted web app similar to blockchain.info or ether scan but for the subspace n
 
 A secure hosted app meant primarily for developers who are building apps on the subspace network or reserving storage. Similar to the AWS or Google Cloud console in appearance and functionality.
 
-## Subspace Full Node (Mobile & Desktop)
+## Subspace Full Node
 
-The authoritative app/s for sharing space on the subspace network. Mobile is currently in beta with in both the app and play stores through FastLane.
+The authoritative app/s for sharing space on the subspace network from a mobile device or desktop computer. Mobile is currently in beta with in both the app and play stores through FastLane.
 
-## Subspace Full Node (Server)
+## Subspace Full Node Headless
 
 A headless version of subspace meant to be run by technical hosts/farmers running on dedicated hardware in the cloud. Goal is to make it as simple as possible for them to deploy on existing cloud service providers.
