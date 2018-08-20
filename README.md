@@ -210,40 +210,40 @@ Disconnect()
 
 All are currently in javascript. Goal is to move to Typescript soon.
 
-## Server
+### Server
 
 The core protocol currently written for Node JS. Uses Node WebRTC for as the transport adapter and Node Persist as the storage adapter. Currently run as a daemon from the console. Goal is to package with Zeit Packager or Docker to simplify deployments.
 
-## Browser
+### Browser
 
 The core protocol bundled using browserify. Used native window.webrtc for the transport layer and localforage as the storage adapter. Currently includes a simple UI to see neighboring nodes, get records by id, and put records while visualizing the json data.
 
-## Mobile
+### Mobile
 
 The core protocol with several modification in React Native. Uses RN-WebRTC as the transport layer, RN Async Storage as the store layer, Node-Libs React Native to provide similar node style interface, along with half a dozen other libraries to fill out all of the node libs.
 
-## IoT  
+### IoT  
 
 The core protocol running in Rasbian (Debian Ubuntu) on a Raspberry Pi for the BitBot. Everything except for node-webrtc will port over flawlessly. Unable to get node-webrtc to build for ArmV7 architecture. Have been able to use electron-webrtc using old version of electron. May also be able to run x86 VM on Pi in run standard server protocol here.
 
-## Desktop
+### Desktop
 
 Currently running core protocol as a background process for OSX and Ubuntu. Have not tested on Windows. Next step is to wrap with a simple electron app, first as a tray icon and later with a full UI similar to the mobile wallet experience.
 
-### Subspace Implementations
+## Subspace Implementations
 
-## Subspace Explorer (SPA)
+### Subspace Explorer (SPA)
 
 A hosted web app similar to blockchain.info or ether scan but for the subspace network. Later may include the ability to create wallets, submit transactions, and store records on SSDB with a valid key or wallet.
 
-## Subspace Console (Web App)
+### Subspace Console (Web App)
 
 A secure hosted app meant primarily for developers who are building apps on the subspace network or reserving storage. Similar to the AWS or Google Cloud console in appearance and functionality.
 
-## Subspace Full Node (Mobile & Desktop)
+### Subspace Full Node (Mobile & Desktop)
 
 The authoritative app/s for sharing space on the subspace network from a mobile device or desktop computer. Mobile is currently in beta with in both the app and play stores through FastLane.
 
-## Subspace Full Node (Server)
+### Subspace Full Node (Server)
 
 A headless version of subspace meant to be run by technical hosts/farmers running on dedicated hardware in the cloud. Goal is to make it as simple as possible for them to deploy on existing cloud service providers.
