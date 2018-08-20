@@ -23,10 +23,10 @@ A high level overview of the design and components of the Subspace protocol.
   * [Desktop](#desktop)
   * [BitBot](#bitbot)
 - [Subspace Implementations](#subspace-implementations)
-  * [Subspace Explorer](subspace-explorer)
-  * [Subspace Console](subspace-console)
-  * [Subspace Full Node](subspace-full-node)
-  * [Subspace Full Node (headless)](subspace-full-node-headless)
+  * [Subspace Explorer](subspace-explorer-(spa))
+  * [Subspace Console](subspace-console-(web-app))
+  * [Subspace Full Node](subspace-full-node-(mobile/desktop))
+  * [Subspace Full Node (headless)](subspace-full-node-(server))
 
 ## Core Modules
 
@@ -240,10 +240,10 @@ A hosted web app similar to blockchain.info or ether scan but for the subspace n
 
 A secure hosted app meant primarily for developers who are building apps on the subspace network or reserving storage. Similar to the AWS or Google Cloud console in appearance and functionality.
 
-## Subspace Full Node
+## Subspace Full Node (Mobile & Desktop)
 
 The authoritative app/s for sharing space on the subspace network from a mobile device or desktop computer. Mobile is currently in beta with in both the app and play stores through FastLane.
 
-## Subspace Full Node Headless
+## Subspace Full Node (Server)
 
 A headless version of subspace meant to be run by technical hosts/farmers running on dedicated hardware in the cloud. Goal is to make it as simple as possible for them to deploy on existing cloud service providers.
